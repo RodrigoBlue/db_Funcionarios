@@ -23,6 +23,7 @@ index(matr_superior)
 drop table tbl_funcionario;
 select * from tbl_funcionario order by f_matricula;
 
+-- inserts tbl_funcionario
 
 insert into tbl_funcionario (f_matricula, nome_func, anos_servico, salario, cargo) 
 values ('12', 'Rodrigo', 8, 5.000, 'aux'), 
@@ -40,11 +41,10 @@ values (18, 'Pitch', 3, 800, 'estagiario', 'Dario', 13);
 insert into tbl_funcionario (f_matricula, nome_func, anos_servico, salario, cargo, nome_superv, matr_superior) 
 values (05, 'davi', 5, 8.300, 'investigador', 'Vinicius', 17 );
 
-insert into tbl_funcionario (f_matricula, nome_func, anos_servico, salario, cargo) 
-
 
 insert into tbl_funcionario(f_matricula, nome_func, anos_servico, salario ,cod_depto, cod_orgao, cod_div, cargo, matr_gerencia, nome_superv, matr_superior) 
 values(02,'aline',5,15.000,7,021,1, 'gerentes de departamento',2 , 'Dario', 13);
+
 insert into tbl_funcionario(f_matricula, nome_func, anos_servico, salario ,cod_depto, cod_orgao, cod_div, cargo, matr_gerencia, nome_superv, matr_superior)  
 values(03,'anne',5,10.000,7,021,2, 'gerentes de divisao',1, 'Vinicius', 17 );
 
