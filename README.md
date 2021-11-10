@@ -1,2 +1,2 @@
 # db_Funcionarios
-modelo fisico e logico de um banco de dados de uma empresa
+modelo fisico e logico de um banco de dados de uma empresa(MySql)
